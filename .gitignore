@@ -60,4 +60,16 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# No send a vc file
+*.vc
+
 # End of https://www.toptal.com/developers/gitignore/api/windows
+/.vscode
+/.vs
+/.vs
+/.vs/the_quadratic_equation_-
+/.vs/the_quadratic_equation_-/FileContentIndex
+.vs/the_quadratic_equation_-/v17/Browse.VC.db
+/.vs/the_quadratic_equation_-
+/.vs
+/.vs
