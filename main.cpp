@@ -22,7 +22,7 @@ int main() {
     getValue(a, b, c);
 
     if (a == 0) {
-        std::cout << "This is not a quadratic equation!" << std::endl;
+        std::cout << "This is not a quadratic equation!" << std::endl;//не квадратное уровнение
         return 0;
     }
 
@@ -30,14 +30,14 @@ int main() {
     decision(D, x1, x2, x, a, b, c);
 
     if (D > 0) {
-        std::cout << "The first root:" << x1 << std::endl;
-        std::cout << "The second root: " << x2 << std::endl;
+        std::cout << "The first root:" << x1 << std::endl; //первый корень
+        std::cout << "The second root: " << x2 << std::endl; //второй корень
     }
     else if (D == 0) {
-        std::cout << "The only root: " << x << std::endl;
+        std::cout << "The only root: " << x << std::endl;//единственный корень
     }
     else {
-        std::cout << "There are no real roots" << std::endl;
+        std::cout << "There are no real roots" << std::endl;//нет корней
     }
 
     return 0;
