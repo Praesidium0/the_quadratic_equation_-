@@ -4,7 +4,7 @@
 
 void getValue(double& a, double& b, double& c) {
     while (true) {
-        std::cout << "Enter the coefficients A, B, C: ";
+        std::cout << "Введите коэффициенты A, B, C: ";
         std::cin >> a >> b >> c;
 
         if (std::cin.fail()) {
