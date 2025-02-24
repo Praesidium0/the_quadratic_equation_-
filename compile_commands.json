@@ -1,0 +1,67 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-c",
+      "-o",
+      "build/calculation_of_roots.o",
+      "calculation_of_roots.cpp"
+    ],
+    "directory": "/tmp/the_quadratic_equation_-",
+    "file": "/tmp/the_quadratic_equation_-/calculation_of_roots.cpp",
+    "output": "/tmp/the_quadratic_equation_-/build/calculation_of_roots.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-c",
+      "-o",
+      "build/getvalue.o",
+      "getvalue.cpp"
+    ],
+    "directory": "/tmp/the_quadratic_equation_-",
+    "file": "/tmp/the_quadratic_equation_-/getvalue.cpp",
+    "output": "/tmp/the_quadratic_equation_-/build/getvalue.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-c",
+      "-o",
+      "build/main.o",
+      "main.cpp"
+    ],
+    "directory": "/tmp/the_quadratic_equation_-",
+    "file": "/tmp/the_quadratic_equation_-/main.cpp",
+    "output": "/tmp/the_quadratic_equation_-/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-c",
+      "-o",
+      "build/solution_is_linear.o",
+      "solution_is_linear.cpp"
+    ],
+    "directory": "/tmp/the_quadratic_equation_-",
+    "file": "/tmp/the_quadratic_equation_-/solution_is_linear.cpp",
+    "output": "/tmp/the_quadratic_equation_-/build/solution_is_linear.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-c",
+      "-o",
+      "build/solution_is_square.o",
+      "solution_is_square.cpp"
+    ],
+    "directory": "/tmp/the_quadratic_equation_-",
+    "file": "/tmp/the_quadratic_equation_-/solution_is_square.cpp",
+    "output": "/tmp/the_quadratic_equation_-/build/solution_is_square.o"
+  }
+]
