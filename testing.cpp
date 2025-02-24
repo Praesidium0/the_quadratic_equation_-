@@ -8,8 +8,22 @@
 int testing(int input)
 {
     double a = 0, b = 0, c = 0;
-        getValue(a,b,c);
-
+        getValue(a,b,c); // TODO: Test should _not_ get values from the user. You write tests for yourself.
+                         //       Just write the function test(a, b, c, correct_x1, correct_x2) like that:
+                         //       bool test(a, b, c, correct_x1, correct_x2) {
+                         //           x1, x2 = solve_equation(a, b, c);
+                         //           if (x1 == correct_x1 and x2 == correct_x2)
+                         //             return true; // test passed
+                         //           else
+                         //               return false; // test failed
+                         //             
+                         //       }
+                         //
+                         //       and then call it like:
+                         //       test(1, 4, 2, -3.4142, -0.58579);
+                         //       test(0, 0, 0, ....);
+                         //       test(0.0000001, -0.0000001, 0, ....);
+                         //       and so on (think about corner cases)
         if (a == 0) {
             std::cout << "Это не квадратное уравнение!" << std::endl;
             return 0;

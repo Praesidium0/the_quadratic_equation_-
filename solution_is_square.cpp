@@ -5,6 +5,10 @@
 #include "calculation_of_roots.h"
 #include "truncateToTwoDecimals.h"
 
+// TODO: A little note about naming. Try to use verbse while name your functions. 
+//       The reason for that is that function do something, so it would be more clear for others if you use verbs in naming
+//       For example: you can name this function as `solve_square_equasion`.
+
 int solution_is_square(int input){
     double a = 0, b = 0, c = 0;
         getValue(a,b,c);
@@ -18,7 +22,7 @@ int solution_is_square(int input){
         calculation_of_roots(D, x1, x2, x, a, b, c);
 
         // Обрезаем корни перед выводом
-        x1 = truncateToTwoDecimals(x1);
+        x1 = truncateToTwoDecimals(x1); // TODO: You don't have to do this, because later you set precision for stdout
         x2 = truncateToTwoDecimals(x2);
         x = truncateToTwoDecimals(x);
 

@@ -2,6 +2,8 @@
 #include <cmath> 
 #include <iomanip>
 
+// TODO: avoid out-parameters. They're quite good in C, but considered bad in C++ since they make compiler work harder in some way.
+//       Instead, return std::pair or std::tuple
 void calculation_of_roots(double& D, double& x1, double& x2, double& x, double a, double b, double c) {
     D = b * b - 4 * a * c;
 
