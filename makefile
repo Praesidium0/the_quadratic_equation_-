@@ -1,11 +1,19 @@
-app.out: main.o getvalue.o
-	g++ -g main.o getvalue.o -o app.out
+TARGET = app.out
 
-main.o: main.cpp getvalue.h
-	g++ -g -c main.cpp
+CXX = g++
 
-getvalue.o: getvalue.cpp getvalue.h
-	g++ -g -c getvalue.cpp
+PREF_SRC = ./
+PREF_OBJ = ./build/
+
+SRC = $(wildcard $(PREF_SRC)*.cpp)
+OBJ = $(patsubst $(PREF_SRC)%.cpp, $(PREF_OBJ)%.o, $(SRC))
+
+
+$(TARGET): $(OBJ)
+	$(CXX) -g $(OBJ) -o $(TARGET)
+
+$(PREF_OBJ)%.o : $(PREF_SRC)%.cpp	
+	$(CXX) -g -c $< -o $@
 
 clean:
-	rm -f *.o app.out
+	rm $(TARGET) $(PREF_OBJ)*.o

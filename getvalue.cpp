@@ -1,6 +1,6 @@
 #include <iostream>
-#include <string>
-#include <cmath>
+#include <cmath> 
+#include <iomanip>
 
 void getValue(double& a, double& b, double& c) {
     while (true) {
@@ -10,6 +10,7 @@ void getValue(double& a, double& b, double& c) {
         if (std::cin.fail()) {
             std::cin.clear();
             std::cin.ignore(32767, '\n');
+            std::cout << "Ошибка ввода! Попробуйте снова.\n";
         }
         else {
             return;
