@@ -1,3 +1,3 @@
 #pragma once
 
-int solution_is_linear(int input);
+double solution_is_linear(double a, double b, double c);

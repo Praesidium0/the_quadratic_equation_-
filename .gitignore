@@ -2,7 +2,7 @@
 *.d
 
 # Compiled Object files
-
+*.o
 
 # Precompiled Headers
 *.gch
@@ -70,3 +70,4 @@ $RECYCLE.BIN/
 /.vs/the_quadratic_equation_-
 /.vs
 /.vs
+

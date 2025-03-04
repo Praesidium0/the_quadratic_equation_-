@@ -8,9 +8,9 @@ void getValue(double& a, double& b, double& c) {
         std::cin >> a >> b >> c;
 
         if (std::cin.fail()) {
+            int MAX_INPUT_SIZE = 32767;
             std::cin.clear();
-            std::cin.ignore(32767, '\n'); // TODO: please, leave a comment on what that means. 
-                                          // Also, please, create a constant with meaningfull name for 32767
+            std::cin.ignore(MAX_INPUT_SIZE, '\n'); //максимальное количество символов которое будет проигнорировано
                                           
             std::cout << "Ошибка ввода! Попробуйте снова.\n";
         }
